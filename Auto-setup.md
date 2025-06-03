@@ -11,7 +11,8 @@ The setup was done in a Git Bash terminal
    *It is optional to configure/edit the Vagrantfile with settings for hostname, network, etc, but VM will still boot up.
 7. vagrant up  (start up vm)
    *make sure to disable your anti-virus, VPN's, or use other network if using corporate network
-   common commands used: 
+
+   Common commands used: 
    - vagrant status (check which VM's are up, if any)
    - vagrant ssh (log into vm)
    - sudo -i (switch to root user, escalate priviledges)
