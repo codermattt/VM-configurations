@@ -24,7 +24,7 @@ The setup was done in a Git Bash terminal
 1. cd /C/vagrant-vms/ubuntu
 2. vagrant init ubuntu/jammy64   (download box, to create Vagrantfile)
 3. vagrant up
-   vagrant global-status  (check all vm's currently running)
+   - vagrant global-status  (check all vm's currently running)
 4. vagrant ssh
 -----------------------------------------------------------------------------------------
 Note: we don't need virtualbox to manage vm, we use vagrant (Git Bash) commands, but we can observe vm's on virtualbox
